@@ -74,6 +74,43 @@ header {
   border-right: 0.5px solid #e5e5e5;
   padding: 0px 17px;
 }
+
+/* well */
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+/* well */
 .banner {
   position: relative;
 }
@@ -82,13 +119,13 @@ header {
   width: 530px;
   left: 70px;
   bottom: 140px;
+  color: #fff;
 }
 
 .tag {
   background: rgba(255, 255, 255, 0.15);
-  border-radius: 8px;
-  padding: 5px 10px;
-
+  border-radius: 10px;
+  padding: 5px 10px; 
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 10px;
@@ -98,7 +135,38 @@ header {
 }
 .middle-line {
   height: 1px;
-  min-width: 30px;
+  width: 30px;
   background: #e5e5e5;
-  margin: 0px 11px;
+  margin: 16px 11px;
+}
+
+.banner-text{
+  display: flex;
+  /* padding: 5px 0px; */
+}
+
+/* .banner-text:last-child{
+  padding: 30px 0px;                   #как тут сделать ровный текст с тире?
+} */
+
+.Richard{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.firstP{
+  margin: 5px 5px;
+}
+
+.Progress{
+  margin: 13px 0px;
+}
+
+main{
+  color: #495057;
+}
+
+.topics{
+  margin-top: 150px;
+  margin-left: 70px;
 }
